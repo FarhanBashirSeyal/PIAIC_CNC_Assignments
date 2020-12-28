@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			JS chapter 10_to_14 & Assignment_2
+		</title>
+	</head>
+	<body>
+	
+		<script>
+			/*
+				Second Assignment - Make a Percentage Calculator
+					Get the 5-course number from the userfor example course1 is 70 var totalMarks = 500
+					Calculate the total percentage formula: obtainedMarks * 100/ totalMarks
+					print output in alert.
+			*/
+		
+			var eng = Number(prompt("Enter your English Marks :"));
+			var urdu = Number(prompt("Enter your Urdu Marks :"));
+			var phy = Number(prompt("Enter your Physics Marks :"));
+			var comp = Number(prompt("Enter your Computer Marks :"));
+			var math = Number(prompt("Enter your Math Marks :"));
+			var totalMarks = 500;
+			var percentage = [(eng + urdu + phy +comp + math) * 100]/totalMarks;
+			if(percentage >= 50)
+			{
+				alert("Your Percentage is : " + percentage + "% &" + " You are Passed");
+			}
+			else
+			{
+				alert("Your Percentage is : " + percentage + "% &" + " You are Failed");
+			}
+		
+		</script>
+	</body>
+</html>
