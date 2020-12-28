@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			JS chapter 10_to_14
+		</title>
+	</head>
+	<body>
+	
+		<script>
+			/*
+			Assignment _1
+			Make a Calculator
+			 1.input a value from user for example num1 is 7
+			 2.input a second value from user for example num2 is 3
+			 3.input a third value from user for example sign is "+" or "-" or "*" or "/" or "%"
+			 4.print operation in alert() 7-3 =4, or 7*3 =21, or 7/3 =2.3, or 7+3 =10 or 7%3 =1
+			*/
+			var num1 = prompt("Enter value of A :");
+			var num2 = prompt("Enter value of B :");
+			var op = prompt("Enter Operator :");
+			if(op === "+")
+			{
+				var sum = parseInt(num2)+ parseInt(num2);
+				alert("A + B = " + sum);
+			}
+			else if(op === "-")
+			{
+				var sub = parseInt(num1) - parseInt(num2);
+				alert("A - B = " + sub);
+			}
+			else if(op === "*")
+			{
+				var mul = parseInt(num1) * parseInt(num2);
+				alert("A * B = " + mul);
+			}
+			else if (op === "/")
+			{
+				var divi = parseInt(num1) / parseInt(num2);
+				alert("A / B = " + divi);
+			}
+			else if(op === "%")
+			{
+				var mol = parseInt(num1) % parseInt(num2);
+				alert("A % B = " + mol);
+			}
+			else
+			{
+				alert("Invalid Operator");
+			}
+		
+		
+		</script>
+	</body>
+</html>
