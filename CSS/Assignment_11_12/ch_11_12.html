@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS chapter 11&12</title>
+            <!-- CSS styling -->
+    <style>
+      body{
+        padding: 8%;
+      }
+      a{
+        text-decoration: none;
+          color: rgb(24, 19, 7);
+          font-size: 1.5rem;
+          background-color: darkgrey;
+      }
+
+      a:hover{
+        text-decoration: none;
+          color: rgb(61, 151, 25);
+          font-size: 1.5rem;
+          background-color: darkgrey;
+      }
+        h1{
+            font-size: 4.8rem;
+            color: black;
+            text-decoration: underline #252525;
+            text-align: center;
+        }
+        h2{
+          font-size: 2rem;
+          font-weight: bold;
+        }
+        h2.shadow{
+          text-shadow: -4px 0px 4px rgba(32,28,28,0.62);
+        }
+        .credit{
+          text-align: center;
+          font-size: 1.5rem;
+        }
+        .credit>b>a{
+          text-decoration: none;
+          color: darkgoldenrod;
+        }
+        .credit>b>a:hover{
+          text-decoration: none;
+          color: darkgreen;
+        }
+
+    </style>
+  </head>
+  <body>
+    <!-- div 1 -->
+    <div>
+      <h1>PIAIC</h1>
+      <h2 class="shadow">
+        Presidential Initiative for Artificial Intelligence & Computing (PIAIC)
+      </h2>
+      <p>
+        <b> Initiative for Artificial Intelligence and Computing
+        (PIAIC)</b> is a privately funded notfor- profit educational initiative
+        started by President of Pakistan, <b><abbr title="Doctor">Dr</abbr>. Arif Alvi, Kazi Rahat Ali, and Zia
+        Khan</b> to help promote education, research and business opportunities in
+        emerging tech fields like
+      </p>
+      <ul>
+        <li><a href="#CNC" ><b>Cloud Native Computing</b></a></li>
+        <li><a href="#AI" ><b>Artificial Intelligence</b></a></li>
+        <li><a href="#BC"><b>Blockchain</b></a></li>
+        <li><a href="#IOT"><b>Internet Of Things</b></a></li>
+      </ul>
+    </div>
+    <!-- div 2 -->
+    <div>
+      <h2 id="CNC">Cloud Native computing:</h2>
+      <p>
+        The <strong>Cloud Native Computing</strong> program prepares the
+        students to program in open source technologies like,
+        <strong>Linux, Docker, Kubernetes, JavaScript, Node.js, React and React
+          Native</strong
+        >
+        while introducing the students to development of Microservices and
+        software development techniques on cloud platforms like AWS.
+      </p>
+    </div>
+    <!-- div 3 -->
+    <div>
+        <h2 id="AI">Artificial Intelligence:</h2>
+        <p>
+            The <strong>artificial intelligence</strong> program of PIAIC takes the student through the foundation of the AI
+technology, via teaching programming in open source languages like<strong> Python, Numpy, Pandas,
+Tensorflow 2.0 and Flask,</strong> and teaching deploying practical AI solutions and use cases, and
+ending with real-life examples of modern day AI in practice.
+        </p>
+    </div>
+    <!-- div 4 -->
+    <div>
+        <h2 id="BC">Blockchain:</h2>
+        <p>The main emphasis of <strong>Blockchain</strong> program is to understand the blockchains like <strong>Ethereum
+            and Hyperledger (Fabric),</strong> and learn to program in languages such as Solidity, JavaScript on
+            frameworks like Node.js. The program also introduces them to development of Distributed Apps
+            (DApps), frameworks like Web3 and Truffle and an in-depth understanding of Blockchain-as-aservice
+            (BaaS) and how to develop and offer an Initial Coin Offering (ICO) of a crypto-token.</p>
+    </div>
+    <!-- div 5 -->
+    <div>
+        <h2 id="IOT">Internet of Things:</h2>
+        <p>The <strong>Internet of things</strong> program introduces the students to open source development
+            technologies like Rust, Embedded <strong>Rust, WebAssembly, Hyper, Diesel, Google Assistant,
+                and Kubernetes</strong> while making them efficient in developing Micro Services for IoT Edge, IoT
+            Cloud, and voice computing for device control.</p>
+    </div>
+    <!-- paragraph -->
+    <p class="credit"><b>BY: <a href="https://www.facebook.com/m.farhan0802/">Farhan Bashir</b></a></p>
+  </body>
+</html>
